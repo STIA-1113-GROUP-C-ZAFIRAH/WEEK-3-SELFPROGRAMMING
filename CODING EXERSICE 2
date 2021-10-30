@@ -1,0 +1,62 @@
+package selfProgramming3;
+import java.util.Scanner;
+
+public class Exersice2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name;
+		char grade;
+		
+		int number1;
+		int number2;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		double number7;
+		int sum;
+		int sum2;
+		int sum3;
+		int sum4;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your name:" );
+		name = scanMe.nextLine();
+		
+		System.out.println("Enter your cgpa:" );
+		number7 = scanMe.nextDouble();
+		
+		System.out.println("Enter your grade for Math in SPM:");
+		grade = scanMe.next().charAt(0);
+		
+		System.out.println("Enter number1:");
+		number1 = scanMe.nextInt();
+		
+		System.out.println("Enter Number2:");
+		number2 = scanMe.nextInt();
+		
+		System.out.println ("My name is " + name);
+		System.out.print("Number1 = " + number1);
+		System.out.print("Number2 = " + number2);
+		System.out.println("Cgpa = " + number7);
+		System.out.println("Grade MATH SPM = " + grade);
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		sum2 = number1 + number2 + number3 + number4 + number5 + number6;
+		
+		System.out.print("The sum is ");
+		System.out.println(sum + " " + sum2);
+		
+
+	}}
+		
+		
+		
+		
+		
+		
+
+		
+		
